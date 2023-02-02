@@ -32,6 +32,13 @@ nav {
     padding-top: var(--main-padding);
     text-decoration: none;
   }
+  li{
+    display: inline-block;
+    padding-right: 50px;
+  }
+  li .text-logo{
+    text-align:left;
+  }
   main {
     background: #84ffff;
     grid-area: main;
