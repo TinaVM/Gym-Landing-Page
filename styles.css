@@ -40,10 +40,18 @@ nav {
     text-align:left;
   }
   main {
-    background: #84ffff;
+    /*background: #84ffff;*/
     grid-area: main;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
+    background-image: url("images/gym-wallpaper.jpg");
+  }
+  .main-text{
+    position: absolute;
+    top: 500px;
+    left: 160px;
+    color: white;
+    font-size: 40px;
   }
   img {
     width: 100%;
