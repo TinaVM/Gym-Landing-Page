@@ -46,13 +46,28 @@ nav {
     padding-top: var(--main-padding);
     background-image: url("images/gym-wallpaper.jpg");
   }
-  .main-text{
+  div #main-text{
+    grid-area: main;
     position: absolute;
     top: 500px;
     left: 280px;
     color: white;
     font-size: 50px;
     letter-spacing: 4px;
+    height: auto;
+    min-height: 250px;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+  }
+  @media screen and(min-width:601px){
+    div #main-text{
+        font-size: 80px;
+    }
+  }
+  @media screen and (max-width:600px){
+    div #main-text{
+        font-size: 30px;
+    }
   }
   span{
     color: red;
