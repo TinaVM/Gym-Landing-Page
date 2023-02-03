@@ -45,6 +45,12 @@ nav {
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
   }
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+  }
 
   #content1 {
     background: #6fffd2;
