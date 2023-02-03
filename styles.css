@@ -49,9 +49,12 @@ nav {
   .main-text{
     position: absolute;
     top: 500px;
-    left: 160px;
+    left: 280px;
     color: white;
-    font-size: 40px;
+    font-size: 50px;
+  }
+  span{
+    color: red;
   }
   img {
     width: 100%;
