@@ -103,6 +103,8 @@ nav {
     background-image: url("images/gym-woman.jpg");
     background-repeat: no-repeat;
     object-fit: cover;
+    height: 500px;
+    width: auto;
   }
   #content2 {
     background: #64ffda;
