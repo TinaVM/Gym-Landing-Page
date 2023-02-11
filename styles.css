@@ -1,6 +1,7 @@
 :root {
     --main-radius: 5px;
     --main-padding: 5px;
+    /*overflow: hidden;*/
   }
 
   body {
@@ -46,6 +47,7 @@ nav {
     padding-top: var(--main-padding);
     background-image: url("images/gym-wallpaper.jpg");
   }
+ 
   div #main-text{
     grid-area: main;
     position: absolute;
@@ -67,6 +69,9 @@ nav {
   @media screen and (max-width:600px){
     div #main-text{
         font-size: 30px;
+        top: 50%;
+        
+        right: 50%;
     }
   }
   span{
@@ -95,12 +100,16 @@ nav {
     grid-area: content1;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
+    background-image: url("images/gym-woman.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
   }
   #content2 {
     background: #64ffda;
     grid-area: content2;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
+    background-image: url("images/gym-man.jpg");
   }
 
   footer {
